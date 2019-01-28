@@ -1,0 +1,77 @@
+[app/ui]
+version = 7.2.1
+modtime = 1548692788.427464800
+
+[app/launcher]
+version = 7.2.1
+modtime = 1548692788.439415100
+
+[props/ConPot]
+owner = admin
+version = 7.2.1
+modtime = 1548692906.971216000
+
+[props/ConPot/EXTRACT-http_Action]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 7.2.1
+modtime = 1548696568.290519200
+
+[props/ConPot/EXTRACT-http_ip]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 7.2.1
+modtime = 1548697277.697065400
+
+[props/ConPot/EXTRACT-http_port]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 7.2.1
+modtime = 1548697337.471257200
+
+[props/ConPot/EXTRACT-ModBus_ip]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 7.2.1
+modtime = 1548700446.224669400
+
+[props/ConPot/EXTRACT-ModBus_port]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 7.2.1
+modtime = 1548700580.609356500
+
+[eventtypes/ModBusClientDisconnect]
+export = none
+owner = admin
+version = 7.2.1
+modtime = 1548701158.828515300
+
+[eventtypes/ModBusNewConnection]
+export = none
+owner = admin
+version = 7.2.1
+modtime = 1548701165.968667600
+
+[eventtypes/ModBusResponseSent]
+export = none
+owner = admin
+version = 7.2.1
+modtime = 1548701172.218253600
+
+[eventtypes/ModBusTrafficFromIP]
+export = none
+owner = admin
+version = 7.2.1
+modtime = 1548701179.739092300
+
+[eventtypes/http_Action]
+export = none
+owner = admin
+version = 7.2.1
+modtime = 1548701185.117340400
